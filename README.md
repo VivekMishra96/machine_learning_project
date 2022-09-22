@@ -33,3 +33,29 @@ To check the git status
 ```
 git status
 ```
+
+'''
+To check all version maintained by git
+'''
+
+'''
+git log
+'''
+
+'''
+git commit -m "message"
+```
+
+To send version /changes to github
+'''
+git puch origin main
+'''
+
+To check remote url
+ '''
+ git remote -v 
+ '''
+
+
+
+
