@@ -3,7 +3,7 @@ from typing import List
 
 #Declaring varibales for setup fucntions
 PROJECT_NAME ="housing-predictor"
-VERSION="0.0.1"
+VERSION="0.0.2"
 AUTHOR="Vivek Mishra"
 DESCRIPTION="This is a first fsds Nov batch Machine learning"
 PACKAGES=["housing"]
@@ -18,7 +18,7 @@ def get_requirements_list()->List[str]:
     return This fucntion is going to return a list which contain name of libraries mentioned in requirements.txt file
     """
     with open(REQUIREMENTS_FILE_NAME) as requirements_file:
-        return requirements_file.readlines()
+        return requirements_file.readlines().remove("-e .")
 
 
 setup(
