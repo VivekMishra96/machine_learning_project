@@ -2,7 +2,7 @@ import yaml
 from housing.exception import HousingException
 import os,sys
 import numpy as np
-#import dill
+import dill
 import pandas as pd
 from housing.constant import *
 
