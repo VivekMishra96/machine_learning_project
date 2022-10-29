@@ -7,3 +7,4 @@ PyYAML
 evidently
 dill
 -e .
+matplotlib
